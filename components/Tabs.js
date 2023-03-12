@@ -23,7 +23,7 @@ const Tabs = () => {
         tabBarShowLabel:false,
         headerShown:false
     }}>
-        <Tab.Screen name='Home' component={HomeScreen} 
+        <Tab.Screen name='HomeScreen' component={HomeScreen} 
         options={{
             tabBarIcon:({focused,color})=>(
                 <View style={{alignItems:'center'}}>
